@@ -1,1 +1,75 @@
+:root {
+  --primary-text-color: #757575;
+  --primary-white-text-color: #ffffff;
+  --title-text-color: #212121;
+  --akcent-text-color: #2196f3;
+}
+body {
+  background-color: var(--primary-white-text-color);
+  color: var(--primary-text-color);
+}
+.list {
+  list-style: none;
+}
+/* Logo style */
+.logo {
+  color: var(--akcent-text-color);
+}
+.logo-header {
+  color: rgba(0, 0, 0, 1);
+}
+.logo-footer {
+  color: rgba(255, 255, 255, 1);
+}
 
+/* Site nav */
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--akcent-text-color);
+}
+.site-nav .link.current {
+  color: var(--akcent-text-color);
+}
+.mailto-item {
+  color: var(--akcent-text-color);
+}
+/* Hero */
+.hero-title {
+  color: var(--primary-white-text-color);
+}
+/* Sections */
+.section-title {
+  color: var(--title-text-color);
+}
+/* Features */
+.feature-list {
+  color: var(--primary-text-color);
+}
+.feature-title {
+  color: var(--title-text-color);
+}
+/* Works */
+.work-title {
+  color: var(--title-text-color);
+}
+/* Team */
+.team-list {
+  color: var(--primary-text-color);
+}
+.team-title {
+  color: var(--title-text-color);
+}
+/* Button */
+.button {
+  color: var(--primary-white-text-color);
+  background-color: var(--akcent-text-color);
+}
+
+/*Основные цвета текста #212121 */
+/*Цвета текста описания #757575 */
+/*Цвета текста синий акцент  #2196F3 */
+/*Цвета текста белый с прозрачностью 60% для адреса background: #FFFFFF99;*/
+/* Command slash */ ;
